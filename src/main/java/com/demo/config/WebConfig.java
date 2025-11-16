@@ -20,6 +20,7 @@ public class WebConfig implements WebSocketMessageBrokerConfigurer {
         .setAllowedOriginPatterns("*")
         .withSockJS();
 
+
 	}
 
 	@Override

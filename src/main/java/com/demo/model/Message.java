@@ -4,7 +4,7 @@ public class Message {
     private String name;
     private String content;
 
-    public Message() {}  // Required for deserialization
+    public Message() {}  
 
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
